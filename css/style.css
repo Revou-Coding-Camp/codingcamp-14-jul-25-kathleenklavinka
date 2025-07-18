@@ -1,0 +1,153 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f8f3fc;
+  color: #3e1c5f;
+}
+
+header {
+  background-color: #b490d7;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.logo-img {
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.circle-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.circle-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.circle-img p {
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  background-color: #7e57c2;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.hero {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero .banner {
+  width: 1356px;
+  height: 578px;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.hero .banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.headquarter {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #d1b3ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+button {
+  background-color: #7e57c2;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.result {
+  margin-top: 20px;
+  border: 1px solid #7e57c2;
+  padding: 10px;
+  background-color: #f3e5f5;
+  width: 100%;
+  max-width: 400px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #b490d7;
+  color: white;
+  margin-top: 40px;
+}
